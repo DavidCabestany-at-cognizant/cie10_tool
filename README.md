@@ -35,9 +35,6 @@ Click the link to access to the User Interface.
 ### 1. Upload a PDF
 
 To begin, upload a PDF document that you want to extract data from.
-<p>
-  <img src="./screenshots/upload_pdf.png" width="220" height="240" />
-</p>
 
 ![Upload PDF](screenshots/upload_pdf.png)
 
