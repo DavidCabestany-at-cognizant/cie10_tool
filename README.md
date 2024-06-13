@@ -35,6 +35,9 @@ Click the link to access to the User Interface.
 ### 1. Upload a PDF
 
 To begin, upload a PDF document that you want to extract data from.
+<p>
+  <img src="screenshots/upload_pdf.png" width="220" height="240" />
+</p>
 
 ![Upload PDF](screenshots/upload_pdf.png)
 
@@ -46,7 +49,7 @@ To begin, upload a PDF document that you want to extract data from.
 
 After uploading your PDF:
 
-![Upload PDF](./screenshots/extraction.png)
+![Extract info](./screenshots/extraction.png)
 
 1. Click on **"Enviar"** to process the PDF.
 2. The extracted fields will appear in the **"Campos Extraídos"** box. 
