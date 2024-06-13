@@ -1,0 +1,54 @@
+{
+    "DATOS PERSONALES DEL PACIENTE": {
+        "apellidos_jugador": "GUTIERREZ SANCHEZ",
+        "nombre_jugador": "JOSEP",
+        "genero_jugador": "Masc",
+        "fecha_de_nacimiento": "01/10/1998",
+        "club": "BENAHOARE",
+        "licencia": "CV56FAG"
+    },
+    "INFORMACIÓN MÉDICA": {
+        "Campos_marcados": [
+            "Deficiencia de fuerza muscular",
+            "Lesión medular",
+            "Esclerosis múltiple",
+            "Informe Médico"
+        ],
+        "Codigo_CIE": [
+            {
+                "Affección": "Lesión medular",
+                "código": "S14.0",
+                "Descripción": "Lesión de la médula espinal cervical"
+            },
+            {
+                "Affección": "Esclerosis múltiple",
+                "código": "G35",
+                "Descripción": "Esclerosis múltiple"
+            }
+        ]
+    },
+    "DATOS DE SOPORTE": {
+        "documentos_apoyo_diagnostico": [
+            "Informe Médico"
+        ],
+        "situacion_jugador": "Fluctuante",
+        "edad_inicio": "21",
+        "tratamientos_anteriores": "NO APLICA",
+        "tratamientos_actuales": "NO APLICA",
+        "tratamientos_futuros_previstos": "NO APLICA",
+        "detalles_adicionales": "SE HA REALIZADO UNA EVALUACION DE LA FUNCION MOTORA Y SENSORIAL, DETECTANDO UNA PERDIDA DE FUNCIONES ELEVADA",
+        "medicamentos_y_razon": "KESIMPTA"
+    },
+    "INFORMACIÓN ESPECIALISTA": {
+        "nombre_especialista": "JUAN PEREZ GONZALEZ",
+        "especialidad_medica": "NEUROLOGIA",
+        "numero_colegiado": "356NBH205B561",
+        "direccion": "CALLE HOYO GRANDE 24",
+        "ciudad": "MADRID",
+        "provincia": null,
+        "telefono": "648678546",
+        "correo_electronico": "JUAN_PGON@GMAIL.COM",
+        "fecha": "06/05/2024",
+        "firma": "si"
+    }
+}
