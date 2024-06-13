@@ -49,7 +49,8 @@ After uploading your PDF:
 ![Extract info](./screenshots/extraction.png)
 
 1. Click on **"Enviar"** to process the PDF.
-2. The extracted fields will appear in the **"Campos Extraídos"** box. 
+2. The extracted fields will appear in the **"Campos Extraídos"** box.
+   
     *Note: The information showed above is a mockup, no real data has been used*.
 
 
