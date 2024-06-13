@@ -40,13 +40,16 @@ debugpy==1.8.1
 decorator==5.1.1
 defusedxml==0.7.1
 distro==1.9.0
+dnspython==2.6.1
 easyocr==1.7.1
+email_validator==2.1.1
 et-xmlfile==1.1.0
 etelemetry==0.3.1
 exceptiongroup==1.2.0
 executing==2.0.1
 faiss-gpu==1.7.2
 fastapi==0.110.1
+fastapi-cli==0.0.4
 fastjsonschema==2.19.1
 ffmpy==0.3.2
 filelock==3.13.4
@@ -66,6 +69,7 @@ grpcio==1.62.1
 h11==0.14.0
 httpcore==1.0.5
 httplib2==0.22.0
+httptools==0.6.1
 httpx==0.27.0
 huggingface-hub==0.23.2
 idna==3.7
@@ -73,6 +77,7 @@ imageio==2.34.1
 import-ipynb==0.1.4
 importlib_resources==6.4.0
 inflection==0.5.1
+iniconfig==2.0.0
 ipykernel==6.26.0
 ipython==8.17.2
 ipywidgets==8.1.1
@@ -166,6 +171,7 @@ pdfplumber==0.11.0
 pexpect==4.9.0
 pillow==10.3.0
 platformdirs==4.2.0
+pluggy==1.5.0
 prometheus_client==0.20.0
 prompt-toolkit==3.0.43
 protobuf==4.23.4
@@ -192,6 +198,7 @@ pypdf==4.2.0
 PyPDF2==3.0.1
 pypdfium2==4.29.0
 pytesseract==0.3.10
+pytest==8.2.2
 python-bidi==0.4.2
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
@@ -256,10 +263,13 @@ types-python-dateutil==2.9.0.20240316
 typing-inspect==0.9.0
 typing_extensions==4.11.0
 tzdata==2024.1
+ujson==5.10.0
 uri-template==1.3.0
 urllib3==2.2.1
 uvicorn==0.29.0
+uvloop==0.19.0
 viztracer==0.16.2
+watchfiles==0.22.0
 wcwidth==0.2.13
 webcolors==1.13
 webencodings==0.5.1
