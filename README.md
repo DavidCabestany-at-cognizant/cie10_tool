@@ -36,7 +36,7 @@ Click the link to access to the User Interface.
 
 To begin, upload a PDF document that you want to extract data from.
 
-![Upload PDF](./screenshots/upload_pdf.png)
+![Upload PDF](screenshots/upload_pdf.png)
 
 1. Click on **"Cargar PDF"**.
 2. Choose your PDF file.
