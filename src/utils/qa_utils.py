@@ -3,6 +3,7 @@ from langchain_openai import OpenAI, OpenAIEmbeddings
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.vectorstores import FAISS
 import openai
+import os
 
 
 def responder_cie(Pregunta):
@@ -24,13 +25,17 @@ def responder_cie(Pregunta):
     )
     chain = load_qa_chain(model_faiss, chain_type="stuff", prompt=prompt_pregunta)
     embeddings = OpenAIEmbeddings(openai_api_key=openai.api_key)
+
+    script_dir = os.path.dirname(__file__)
+    faiss_index_path = os.path.join(script_dir, '../services/faiss_index/')
+
     db = FAISS.load_local(
-        folder_path="/teamspace/studios/this_studio/project/src/services/faiss_index",
+        folder_path=faiss_index_path,
         embeddings=embeddings,
         index_name="myFaissIndex",
         allow_dangerous_deserialization=True
     )
-
+    
     docs = db.similarity_search(Pregunta)  
     response = chain({"input_documents": docs, "question": Pregunta})
 
